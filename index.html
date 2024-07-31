@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spam Gönderici</title>
+</head>
+<body>
+    <h1>Spam Gönderici</h1>
+    <form action="/send_spam" method="post">
+        <label for="phone_number">Telefon Numarası (başına +90 ekleyin):</label>
+        <input type="text" id="phone_number" name="phone_number" required>
+        <br>
+        <label for="spam_count">Spam Gönderim Sayısı:</label>
+        <input type="number" id="spam_count" name="spam_count" min="1" value="1">
+        <br>
+        <button type="submit">Gönder</button>
+    </form>
+
+    <footer>
+        <p>Sorumluluk tamamen size aittir. Yapımcının suçu yoktur.</p>
+        <p>İletişim: <a href="https://www.instagram.com/hz.foxrider?igsh=MWRvYnBvcjc4M2Vhcw==">instagram</a></p>
+    </footer>
+</body>
+</html>
